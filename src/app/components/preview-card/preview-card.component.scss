@@ -1,0 +1,27 @@
+:host{
+        display: flex;
+        justify-content: center;
+    
+        background-color: white;
+        border: 2px solid #402039;
+        box-shadow: 2px 2px 8px grey;
+        border-radius: 10px;
+        max-height: 550px;
+        max-width: 400px;
+    
+        text-align: center;
+    
+        .image{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 20px
+        }
+        
+    
+        img{
+            height: auto;
+            width: auto;
+            max-height: 20rem;
+        }
+    }
